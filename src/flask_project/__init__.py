@@ -23,7 +23,7 @@ app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
 app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
 mail = Mail(app)
 
-from src.flask_project import routes
+from flask_project import routes
 
 
 
