@@ -2,7 +2,7 @@ APP_CONFIG = config.py
 
 APP_HOME = src/flask_project
 
-APP_FILE = src/run.py
+APP_FILE = run.py
 
 
 
