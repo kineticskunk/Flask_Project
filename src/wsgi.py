@@ -1,4 +1,4 @@
-from flask_project import applicatition , db
+from flask_project import application , db
 
 # Run Sever
 if __name__ == '__main__':
