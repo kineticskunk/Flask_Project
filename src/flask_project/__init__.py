@@ -25,8 +25,6 @@ mail = Mail(application)
 logging.warning("Passed init file")
 from flask_project import routes
 
-
-
 try:
     # Change here if project is renamed and does not equal the package name
     dist_name = 'Flask_project'
