@@ -1,6 +1,6 @@
 APP_CONFIG = config.py
 
-APP_FILE = src/run.py
+APP_FILE = src/wsig.py
 
 
 
