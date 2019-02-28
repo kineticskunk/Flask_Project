@@ -1,5 +1,5 @@
-from src.flask_project import application , db
-import logging 
+from src.flask_project import *
+import logging
 
 # Run Sever
 if __name__ == '__main__':
