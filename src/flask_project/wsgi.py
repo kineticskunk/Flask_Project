@@ -1,4 +1,3 @@
-from src.flask_project import *
 import logging
 
 # Run Sever
