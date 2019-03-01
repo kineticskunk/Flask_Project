@@ -1,43 +1,25 @@
-# =============================================================================
-# DEPRECATION WARNING:
-#
-# The file `requirements.txt` does not influence the package dependencies and
-# will not be automatically created in the next version of PyScaffold (v4.x).
-#
-# Please have look at the docs for better alternatives
-# (`Dependency Management` section).
-# =============================================================================
-#
-# Add your pinned requirements so that they can be easily installed with:
-# pip install -r requirements.txt
-# Remember to also add them in setup.cfg but unpinned.
-# Example:
-# numpy==1.13.3
-# scipy==1.0flask = "*"
-sqlalchemy 
-flask-wtf 
-flask-bcrypt 
-flask-login 
-pillow  
-flask-mail 
-pipenv 
-gunicorn  
-numpy==1.13.3
-scipy==1.0
-Flask
-Flask-Testing
-itsdangerous
-Jinja2
-MarkupSafe
-flask_sqlalchemy
-pip == 19.0.3 
-setuptools == 40.8.0
-Werkzeug
-wheel
-pytest
-flask-marshmallow 
-marshmallow-sqlalchemy 
-flask-sqlalchemy 
-flask-wtf
-
-
+bcrypt==3.1.6
+blinker==1.4
+certifi==2018.11.29
+Click==7.0
+Flask==1.0.2
+Flask-Bcrypt==0.7.1
+Flask-Login==0.4.1
+Flask-Mail==0.9.1
+flask-marshmallow==0.9.0
+Flask-SQLAlchemy==2.3.2
+Flask-WTF==0.14.2
+itsdangerous==1.1.0
+Jinja2==2.10
+MarkupSafe==1.1.1
+marshmallow==2.18.1
+marshmallow-sqlalchemy==0.16.0
+Pillow==5.4.1
+pipenv==2018.11.26
+pycparser==2.19
+six==1.12.0
+SQLAlchemy==1.2.18
+virtualenv==16.4.1
+virtualenv-clone==0.5.1
+Werkzeug==0.14.1
+WTForms==2.2.1
