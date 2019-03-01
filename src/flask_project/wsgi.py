@@ -1,5 +1,6 @@
 import logging
-from src.flask_project import application,db
+from routes import db
+from routes import application
 # Run Sever
 if __name__ == '__main__':
 	db.create_all()
