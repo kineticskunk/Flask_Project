@@ -1,0 +1,62 @@
+# Clone repository #
+
+git clone https://github.com/DarrenMun/newflask
+
+Foobar is a Python library for dealing with word pluralization.
+
+##Installation
+
+Install pipenv 
+
+#Using Pipenv shell
+pipenv shell
+
+## Run Application
+python application.py
+
+# Deploying to MiniShift 
+
+Minishift is a tool that allows openshift to run locally inside a VM.
+Provisions VMs to be able to run clusters within the VM.
+OpenShift orchestrates HOW and WHEN the apps run. It also enables dev teams to FIX, FINE tune and SCALE those apps as quickly as needed.
+Build and Deployment
+- Docker Image
+- Dockerfile
+- Source to Image
+- Binary Deployments
+
+
+Instructions for installation (https://github.com/minishift/minishift#welcome-to-minishift)
+Step 1
+    - Download the release for windows (https://github.com/minishift/minishift/releases)
+Step 2
+    - Download VM software VirtualBox (https://www.virtualbox.org/wiki/Downloads)
+        - No need to Create a Virtual Machine/Will automatically be created
+Step 3
+    - Open minishift extract file, CD to extracted file path with CMD
+        - Run to start command ($ minishift start --vm-driver virtualbox)
+            - Will download and install the Openshift Binary 'oc' version
+            - Will download minishift-centos-iso 300 - 400 mb
+            - Starting OpenShift container image
+            - Will show that the server started
+Step 4
+    - Copy the IP address in your URL
+Step 5
+    - Logging in
+        - Username : developer
+        - Password : <any value>
+    
+    - Admin Login
+        - In Terminal paste (oc login -u system:admin) if not working 
+        - Paste : (@FOR /f "tokens=*" %i IN ('minishift oc-env') DO @call %i)
+        - Set your user as an admin
+            - Paste in terminal (oc adm policy add-cluster-role-to-user cluster-admin "YOUR NAME")
+            - Youtube video Link (Push local docker images to openshift registry - minishift)
+Successfully installed Minishift working locally *Thumbs Up*
+    - To stop Minishift command ($ minishift stop)
+    - To delete your Minishift ($ minishift delete)
+
+
+Please make sure to update tests as appropriate.
+
+## License
